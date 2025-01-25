@@ -4,16 +4,16 @@ import { Github, Linkedin, Mail, Youtube, Code2, Brain, Globe, ExternalLink, Ter
 function App() {
   const projects = [
     {
-      title: "Project Alpha",
-      description: "A revolutionary AI-powered code analysis tool",
-      videoId: "dQw4w9WgXcQ", // Replace with your actual YouTube video ID
-      tags: ["React", "Python", "Machine Learning"]
+      title: "ATM System",
+      description: "Clean UI - Fully Scripted",
+      videoId: "CxyBALEVA5I", // Replace with your actual YouTube video ID
+      tags: ["Roblox", "Luau", "Scripting"]
     },
     {
-      title: "Project Beta",
-      description: "Real-time collaboration platform for developers",
-      videoId: "dQw4w9WgXcQ", // Replace with your actual YouTube video ID
-      tags: ["TypeScript", "WebSocket", "Redux"]
+      title: "Advanced Advertisement Board",
+      description: "Clear Animations - User friendly fully customizable through settings",
+      videoId: "DW05MofC1Q0", // Replace with your actual YouTube video ID
+      tags: ["Roblox", "Luau", "Scripting"]
     }
   ];
 
@@ -63,13 +63,13 @@ function App() {
         setOutput([]);
         break;
       case 'about':
-        setOutput(prev => [...prev, '', '👋 About Me:', '  Full Stack Developer passionate about creating innovative solutions', '  Specializing in AI, Cloud Architecture, and Modern Web Development']);
+        setOutput(prev => [...prev, '', '👋 About Me:', ' Roblox Scripter, 3D Modeler, Builder', '  Specializing in AI']);
         break;
       case 'skills':
-        setOutput(prev => [...prev, '', '🛠️ Skills:', '  • Frontend: React, TypeScript, Tailwind CSS', '  • Backend: Node.js, Python, Go', '  • Cloud: AWS, Docker, Kubernetes', '  • AI/ML: TensorFlow, PyTorch']);
+        setOutput(prev => [...prev, '', '🛠️ Skills:', '  • Luau Scripting', '  • Python Scripting', '  • Blender 3d Modeling', '  • AI/ML']);
         break;
       default:
-        setOutput(prev => [...prev, `Command not found: ${command}. Type "help" for available commands.`]);
+        setOutput(prev => [...prev, `Command not found: ${command}. Type "help" for available commands or PwnTime will find you.`]);
     }
   }, [position]);
 
@@ -100,22 +100,19 @@ function App() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block">
               <span className="px-4 py-1 rounded-full text-sm font-medium bg-gradient-to-r from-[#4F46E5]/10 to-[#06B6D4]/10 border border-[#4F46E5]/20 text-[#A5B4FC] mb-6 inline-block">
-                Available for hire
+                Available for hire contact me through discord
               </span>
             </div>
             <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-[#4F46E5] via-[#06B6D4] to-[#3B82F6] text-transparent bg-clip-text">
-              John Developer
+              PwnTime
             </h1>
-            <p className="text-xl text-[#94A3B8] mb-8">Full Stack Developer & Software Architect</p>
+            <p className="text-xl text-[#94A3B8] mb-8">Roblox Scripter & 3D Modeler</p>
             <div className="flex justify-center gap-6">
               <a href="#" className="p-3 hover:text-[#4F46E5] transition-colors bg-white/5 rounded-xl hover:bg-white/10">
                 <Github size={24} />
               </a>
               <a href="#" className="p-3 hover:text-[#06B6D4] transition-colors bg-white/5 rounded-xl hover:bg-white/10">
-                <Linkedin size={24} />
-              </a>
-              <a href="#" className="p-3 hover:text-[#3B82F6] transition-colors bg-white/5 rounded-xl hover:bg-white/10">
-                <Mail size={24} />
+                <Discord size={24} />
               </a>
               <a href="#" className="p-3 hover:text-[#EC4899] transition-colors bg-white/5 rounded-xl hover:bg-white/10">
                 <Youtube size={24} />
@@ -135,8 +132,8 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="p-8 rounded-2xl bg-gradient-to-b from-white/[0.08] to-transparent border border-white/[0.08] backdrop-blur-xl hover:translate-y-[-4px] transition-transform">
               <Code2 className="text-[#4F46E5] mb-6" size={40} />
-              <h3 className="text-xl font-semibold mb-3">Full Stack Development</h3>
-              <p className="text-[#94A3B8]">Building scalable applications from front to back</p>
+              <h3 className="text-xl font-semibold mb-3">Luau/Lua Scripter</h3>
+              <p className="text-[#94A3B8]">Scripting your needs</p>
             </div>
             <div className="p-8 rounded-2xl bg-gradient-to-b from-white/[0.08] to-transparent border border-white/[0.08] backdrop-blur-xl hover:translate-y-[-4px] transition-transform">
               <Brain className="text-[#06B6D4] mb-6" size={40} />
@@ -145,8 +142,8 @@ function App() {
             </div>
             <div className="p-8 rounded-2xl bg-gradient-to-b from-white/[0.08] to-transparent border border-white/[0.08] backdrop-blur-xl hover:translate-y-[-4px] transition-transform">
               <Globe className="text-[#3B82F6] mb-6" size={40} />
-              <h3 className="text-xl font-semibold mb-3">Cloud Architecture</h3>
-              <p className="text-[#94A3B8]">Designing robust cloud infrastructure</p>
+              <h3 className="text-xl font-semibold mb-3">3D Modeling</h3>
+              <p className="text-[#94A3B8]">Designing 3D game assets</p>
             </div>
           </div>
         </div>
@@ -206,7 +203,7 @@ function App() {
               <div className="bg-[#24283B] p-4 flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <Terminal size={20} className="text-[#4F46E5]" />
-                  <span className="text-sm font-mono">developer@portfolio:~$</span>
+                  <span className="text-sm font-mono">PwnTime@portfolio:~$</span>
                 </div>
                 <div className="flex gap-2">
                   {!gameStarted ? (
@@ -280,7 +277,7 @@ function App() {
 
       {/* Footer */}
       <footer className="py-8 text-center text-[#94A3B8] border-t border-white/[0.08]">
-        <p>© {new Date().getFullYear()} John Developer. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} PwnTime. All rights reserved.</p>
       </footer>
     </div>
   );
